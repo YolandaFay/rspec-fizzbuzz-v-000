@@ -11,7 +11,7 @@ def fizzbuzz(num)
     puts "Buzz"
   elseif
     (num % 3 == 0) && (num % 5 == 0)
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else
     puts "nil"
   
