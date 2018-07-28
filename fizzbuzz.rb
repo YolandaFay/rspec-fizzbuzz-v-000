@@ -5,14 +5,14 @@ def fizzbuzz(num)
   
   if 
     num % 3 == 0
-    return "Fizz"
+    puts "Fizz"
   elseif
     num % 5 == 0
-    return "Buzz"
+    puts "Buzz"
   elseif
     (num % 3 == 0) && (num % 5 == 0)
-    return "FizzBuzz"
+    puts "FizzBuzz"
   else
-    return nil
+    puts nil
   end
 end
